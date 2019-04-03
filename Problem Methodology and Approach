@@ -1,0 +1,36 @@
+Followed the agile methodology in the whole process of automating the project
+
+Data understanding:
+The data was coming from disparate sources of - Excel, SQL, MSTR report, Python, External data systems of Sales Force
+The models were run on Excel, Alteryx, SQL and python
+The outputs were all integrated via excel vlooks and hlooks etc.
+
+The automation process had the following impact:
+-- Rediced the Human time by 96% on a monthly basis
+-- Reduced the machine time by 84% on a monthly basis
+
+The automation code could be split into the below categories
+1) Code start
+2) Import libraries
+3) User defined functions creation
+4) Credentials for data access
+5) Code for Foundation Data Model - Obtain the required Shipment Data
+6) Code for the FAK model
+7) Code for the CDI Model
+8) Code for the Location Data model
+9) Code for Existing Customers Potential Model
+10) Code for RAD SEgmentation model
+11) Code for Leaf Model
+12) Code for Promise model
+13) Create AMC model
+14) Creation of the Master Pricing Table file
+15) Creation of the Campaign Flags
+16) Code for Accessorial model
+17) Code for CDI Lane level model
+18) Creation of the Pricing Opportunity file
+19) Track execution time
+20) Append data to Netezza from the local system
+21) Creation of the errors log file
+22) Code to send the email notifications to team regarding status of the analysis
+23) Code end
+
